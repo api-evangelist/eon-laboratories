@@ -1,8 +1,26 @@
 aid: eon-laboratories
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eon-laboratories.png
 name: Eon Laboratories
-description: Eon Laboratories is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Eon Laboratories is a pharmaceutical manufacturer that develops, manufactures,
+  and markets a broad range of generic pharmaceutical products. It was surfaced
+  as a portfolio company of Canaan Partners and added to the API Evangelist
+  network for enrichment. As a generic-drug maker rather than a software or API
+  producer, Eon Laboratories publishes no public developer portal, API
+  documentation, or machine-readable API specifications, so this profile carries
+  company identity only and no API artifacts. The record will be revisited if the
+  company later exposes a developer or partner API surface.
 url: https://raw.githubusercontent.com/api-evangelist/eon-laboratories/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,30 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: pharmaceuticals
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pharmaceuticals
+- Generic Drugs
+- Drug Manufacturing
+- Healthcare
+- Life Sciences
 apis: []
+common:
+- type: CompanyProfile
+  url: https://www.canaan.com/companies/eon-laboratories
+  name: Canaan Partners portfolio profile
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
